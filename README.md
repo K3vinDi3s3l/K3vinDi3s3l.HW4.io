@@ -1,8 +1,7 @@
 # K3vinDi3s3l.HW4.io
-Code Quiz With Timer 
-# Project Title
 
-One Paragraph of project description goes here
+# Project Title
+Code Quiz With Timer 
 
 ## Getting Started
 
