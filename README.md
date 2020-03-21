@@ -8,10 +8,10 @@ This a quiz that will allow you to test your JavaSript knowledge by reviewing an
 answering a few questions. After every question you answer you will be provided with a Correct/Wrong result as well as a grade in the end of the quiz.
 
 ### Screenshots
-![screenshot](img.1.png)
-![screenshot(img.2.png)
-![screenshot(img.3.png)
-![screenshot(img.4.png)
+![](img.1.png)
+![](img.2.png)
+![](img.3.png)
+![](img.4.png)
 
 ### How to access the quiz
 
