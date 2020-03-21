@@ -56,7 +56,7 @@ var answerElementCount = 0;
 
 var highscores = [];
 var score = 0;
-var time = 80;
+var time = 30;
 
 function startTimer() {
 
@@ -66,7 +66,7 @@ function startTimer() {
         time = time - 1;
         if (time <= 0) {
             clearInterval(counter);
-            // counter ended, do something here //
+            
             return;
         }
 
