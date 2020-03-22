@@ -56,7 +56,8 @@ var answerElementCount = 0;
 
 var highscores = [];
 var score = 0;
-var time = 30;
+var time = 80;
+var wrongCounter = 1;
 
 function startTimer() {
 
@@ -64,9 +65,9 @@ function startTimer() {
 
     function timer() {
         time = time - 1;
-        if (time <= 0) {
+        if (time === 0 || questionSetCounter > quizQuestions.length) {
             clearInterval(counter);
-            
+            //counter ended, do something here
             return;
         }
 
@@ -83,9 +84,11 @@ function chosenAnswer() {
 
     if (answerArray[0] === quizQuestions[questionSetCounter - 1].correctAnswer) {
         answerResultContainer.innerHTML = "Correct!";
-        score += 5;
+        
     } else {
         answerResultContainer.innerHTML = "Wrong!";
+        wrongCounter++;
+        time = time - 5 * wrongCounter ;
     }
     getNextQuestionSet();
 }
@@ -132,6 +135,9 @@ function getNextQuestionSet() {
 
         questionSetCounter++;
     } else {
+        questionSetCounter++;
+        score = time;
+        timerElem.innerHTML = time;
         showResults();
     }
 
