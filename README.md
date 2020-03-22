@@ -15,8 +15,6 @@ Attention: The quiz is timed, and every time you answer wrong, 5 seconds will be
 
 ### How to access the quiz
 URL:  https://k3vindi3s3l.github.io/K3vinDi3s3l.HW4.io/
-
-Please follow this URL and you will be directed to the quiz.
 URL: https://k3vindi3s3l.github.io/K3vinDi3s3l.HW4.io/
 
 ### Built With
